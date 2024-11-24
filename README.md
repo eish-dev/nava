@@ -75,7 +75,7 @@ cd nava
 2. Create and activate virtual environment:
 ```bash
 python -m venv nenv
-source nenv/bin/activate  # On Windows: nenv\Scripts\activate
+source nenv/bin/activate  
 ```
 
 3. Install dependencies:
@@ -196,20 +196,3 @@ pip install pytest pytest-cov factory-boy
 # Run tests
 pytest
 ```
-
-## Security Considerations
-- Change default admin credentials
-- Use strong passwords
-- Secure database connection strings
-- Implement rate limiting
-- Regular security audits
-
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-[Your License Here]
